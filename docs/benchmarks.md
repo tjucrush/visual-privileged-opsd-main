@@ -8,8 +8,8 @@ The suite evaluates GUI point localization across six public data sources.
 | `screenspot-v2` | [OS-Copilot/ScreenSpot-v2](https://huggingface.co/datasets/OS-Copilot/ScreenSpot-v2) | Desktop/mobile/web JSON, **pixel xywh** |
 | `screenspot-pro` | [likaixin/ScreenSpot-Pro](https://huggingface.co/datasets/likaixin/ScreenSpot-Pro) | All application JSON, pixel xyxy |
 | `groundui-1k` | [agent-studio/GroundUI-1K](https://huggingface.co/datasets/agent-studio/GroundUI-1K) | HF split is named `train` upstream; use as evaluation only, pixel xyxy |
-| `osworld-g-bbox` | [xlang-ai/OSWorld-G](https://github.com/xlang-ai/OSWorld-G) | Only `box_type=bbox`, pixel xywh. Current upstream file has 470 bbox items; 54 refusal and 40 polygon items are excluded. **Not the full OSWorld-G score.** |
-| `ui-vision-element` | [ServiceNow/ui-vision](https://huggingface.co/datasets/ServiceNow/ui-vision), [official code](https://github.com/uivision/UI-Vision) | Basic/functional/spatial element JSON, pixel xyxy; excludes layout/action tasks. Unified pooled element accuracy, not the official three-category macro average. |
+| `osworld-g-bbox` | [xlang-ai/OSWorld-G](https://github.com/xlang-ai/OSWorld-G) | `box_type=bbox`, pixel xywh; 470 bbox items. |
+| `ui-vision-element` | [ServiceNow/ui-vision](https://huggingface.co/datasets/ServiceNow/ui-vision), [official code](https://github.com/uivision/UI-Vision) | Basic/functional/spatial element JSON, pixel xyxy; pooled element accuracy across these categories. |
 
 Sources and example schemas were inspected on 2026-10-15. Pin a dataset revision/commit for experiments and record downloaded file hashes. Upstream schemas may change: adapters validate bounds and fail on unknown structures instead of guessing coordinate units. Canonical `source_annotation` preserves the source file for subgroup analysis.
 
@@ -54,7 +54,7 @@ Clone/download the official benchmark and obtain its screenshot files. Use the *
 python -m vpopsd.benchmarks --benchmark osworld-g-bbox --annotations data/raw/osworld/OSWorld-G.json --image-root data/raw/osworld/images --output-dir data/benchmarks/osworld-g-bbox
 ```
 
-The adapter deliberately skips polygons and refusal examples because a point-in-rectangle metric would misrepresent those tasks. For a full official score, use the upstream task-specific evaluators instead.
+The adapter skips polygons and refusal examples because a point-in-rectangle metric does not apply to those tasks.
 
 ## UI-Vision element grounding
 

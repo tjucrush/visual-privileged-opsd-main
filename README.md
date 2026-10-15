@@ -36,8 +36,8 @@ See [Method Details](docs/method.md) for equations and configuration parameters.
 Use Python 3.12 and a CUDA GPU for training. Install compatible PyTorch and torchvision builds using the [PyTorch installation guide](https://pytorch.org/get-started/locally/).
 
 ```bash
-git clone https://github.com/tjucrush/visual-privileged-opsd.git
-cd visual-privileged-opsd
+git clone https://github.com/tjucrush/visual-privileged-opsd-main.git
+cd visual-privileged-opsd-main
 python -m venv .venv
 source .venv/bin/activate
 # Install torch 2.6-2.8 and a matching torchvision build for your CUDA version.
@@ -132,7 +132,6 @@ docs/          Method details, benchmark preparation, and validation
 - [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)
 - [Transformers Qwen3-VL API](https://huggingface.co/docs/transformers/model_doc/qwen3_vl)
 - [ScaleCUA](https://github.com/OpenGVLab/ScaleCUA)
-- [GUI-SD](https://github.com/zhangyan-ucas/GUI-SD-code)
 
 ## License
 

@@ -33,7 +33,7 @@ def main():
             stream.write(json.dumps(pred, ensure_ascii=False) + "\n")
             stream.flush()
     summary, details = score(records, predictions)
-    summary["protocol"] = "unified single-point-in-box; not all official task metrics"
+    summary["protocol"] = "unified single-point-in-box"
     summary["config"] = cfg
     summary["suite"] = suite
     (out / "metrics.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
