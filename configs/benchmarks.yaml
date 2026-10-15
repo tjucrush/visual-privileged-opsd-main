@@ -1,0 +1,9 @@
+# GUI grounding benchmark suite.
+# Prepare these canonical files first; missing datasets cause a hard failure.
+datasets:
+  screenspot: data/benchmarks/screenspot/test.jsonl
+  screenspot-v2: data/benchmarks/screenspot-v2/test.jsonl
+  screenspot-pro: data/benchmarks/screenspot-pro/test.jsonl
+  groundui-1k: data/benchmarks/groundui-1k/test.jsonl
+  osworld-g-bbox: data/benchmarks/osworld-g-bbox/test.jsonl
+  ui-vision-element: data/benchmarks/ui-vision-element/test.jsonl

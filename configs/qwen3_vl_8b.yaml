@@ -1,0 +1,32 @@
+# Qwen3-VL-8B visual-privileged OPSD training configuration.
+model_name: Qwen/Qwen3-VL-8B-Instruct
+train_data: data/scalecua/train.jsonl
+output_dir: outputs/vpopsd-qwen3-vl-8b
+device: cuda
+dtype: bfloat16
+seed: 42
+epochs: 1
+learning_rate: 0.00001
+gradient_accumulation_steps: 8
+max_grad_norm: 1.0
+lora: true
+lora_rank: 16
+lora_alpha: 32
+gradient_checkpointing: true
+min_pixels: 262144
+max_pixels: 1310720
+max_new_tokens: 32
+rollout_temperature: 1.0
+distillation_temperature: 1.0
+position_weighting: true
+digit_scale: 4.0
+entropy_weighting: true
+reliability_floor: 0.05
+teacher_hint: true
+privilege:
+  grid_cells: 12
+  margin_cells: 1
+  sigma_scale: 0.65
+  background_keep: 0.35
+  red_box: true
+  gaussian_mask: true

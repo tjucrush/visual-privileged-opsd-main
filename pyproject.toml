@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual-privileged-opsd"
+version = "0.1.0"
+description = "Visual-privileged on-policy self-distillation for GUI grounding"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "Pillow>=10", "torch>=2.6,<2.9", "torchvision>=0.21,<0.24", "transformers==4.57.1", "peft>=0.17,<0.19", "accelerate>=1.10,<2", "PyYAML>=6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.12"]
+data = ["datasets>=3,<5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

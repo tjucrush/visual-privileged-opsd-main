@@ -1,0 +1,9 @@
+model_name: Qwen/Qwen3-VL-8B-Instruct
+device: cuda
+dtype: bfloat16
+min_pixels: 262144
+max_pixels: 1310720
+max_new_tokens: 32
+# For a LoRA-trained student, uncomment:
+# adapter: outputs/vpopsd-qwen3-vl-8b/model
+# For full fine-tuning, set model_name to the saved model directory instead.
