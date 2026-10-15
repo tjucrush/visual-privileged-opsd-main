@@ -1,10 +1,10 @@
 <div align="center">
 
-# Visual-Privileged OPSD
+# Screenshot Grounding Toolkit
 
-### On-policy self-distillation for visual GUI grounding
+### Tools for training screenshot-to-coordinate models
 
-**Teacher-guided coordinate learning | Dynamic token weighting | Qwen3-VL-8B-Instruct**
+**Data preparation | Model training | Evaluation**
 
 <img src="docs/assets/method-overview.png" alt="Method overview diagram" width="860">
 
