@@ -6,6 +6,8 @@
 
 **Data preparation | Model training | Evaluation**
 
+<p><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a></p>
+
 <p><a href="#quick-start">Quick start</a> | <a href="#data-preparation">Data</a> | <a href="#training">Training</a> | <a href="#evaluation">Evaluation</a></p>
 
 <img src="docs/assets/method-overview.png" alt="Method overview diagram" width="860">
