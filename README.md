@@ -6,18 +6,22 @@
 
 **Data preparation | Model training | Evaluation**
 
+<p><a href="#quick-start">Quick start</a> | <a href="#data-preparation">Data</a> | <a href="#training">Training</a> | <a href="#evaluation">Evaluation</a></p>
+
 <img src="docs/assets/method-overview.png" alt="Method overview diagram" width="860">
 
 </div>
 
-This repository provides scripts and configurations for preparing GUI datasets, training screenshot-to-coordinate models, and evaluating their predictions.
+This repository contains the commands, configurations, and tests for preparing screenshot datasets, training coordinate-prediction models, and evaluating their outputs.
 
 ## Project Contents
 
-- `vpopsd.prepare`: convert dataset records and create reproducible splits.
-- `vpopsd.train`: train a model with LoRA or full fine-tuning.
-- `vpopsd.evaluate` and `vpopsd.suite`: score predictions and run benchmark suites.
-- `configs/`: training, inference, and benchmark settings.
+| Area | Entry point | Purpose |
+|---|---|---|
+| Data | `vpopsd.prepare` | Convert records and create reproducible splits |
+| Training | `vpopsd.train` | Fine-tune with LoRA or full model weights |
+| Evaluation | `vpopsd.evaluate`, `vpopsd.suite` | Score predictions and run benchmark suites |
+| Settings | `configs/` | Training, inference, and benchmark configuration |
 
 ## Quick Start
 
