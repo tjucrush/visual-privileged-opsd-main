@@ -10,34 +10,14 @@
 
 </div>
 
-The student predicts coordinates from the original screenshot. A stop-gradient teacher sees a coarse target region and Gaussian soft mask. Both branches evaluate the same student-generated tokens, with position- and confidence-weighted reverse KL divergence guiding training.
+This repository provides scripts and configurations for preparing GUI datasets, training screenshot-to-coordinate models, and evaluating their predictions.
 
-## How It Works
+## Project Contents
 
-```mermaid
-flowchart LR
-  A[Original screenshot and instruction] --> S[Student rollout]
-  B[Target bounding box] --> C[Coarse region]
-  C --> V[Red box and Gaussian soft mask]
-  V --> T[Stop-gradient self-teacher]
-  S --> Y[Shared generated tokens and prefixes]
-  Y --> T
-  Y --> P[Student distribution]
-  T --> Q[Teacher distribution and entropy]
-  P --> L[Weighted reverse KL]
-  Q --> L
-  Y --> W[Coordinate digit importance]
-  W --> L
-  L --> U[Student update]
-```
-
-- **Visual privilege:** snap the target box to an expanded coarse grid, then apply a red rectangle and Gaussian soft mask. Teacher prompts use visual guidance without inserting exact target coordinates.
-- **On-policy sampling:** generate fresh student trajectories and evaluate the same completion token IDs under both branches, with independent causal alignment for each prompt.
-- **Reverse KL:** compute full-vocabulary `KL(p_student || p_teacher)` with temperature scaling and detached teacher probabilities.
-- **Dynamic weighting:** assign stronger supervision to more significant coordinate digits and lower-entropy teacher predictions. Merged digit tokens are supported.
-- **Training:** language-layer LoRA or full fine-tuning, gradient accumulation, gradient checkpointing, model saving, and per-sample metrics.
-
-See [Method Details](docs/method.md) for equations and configuration parameters.
+- `vpopsd.prepare`: convert dataset records and create reproducible splits.
+- `vpopsd.train`: train a model with LoRA or full fine-tuning.
+- `vpopsd.evaluate` and `vpopsd.suite`: score predictions and run benchmark suites.
+- `configs/`: training, inference, and benchmark settings.
 
 ## Quick Start
 
