@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="36" viewBox="0 0 62 36">
+  <path d="M0 1H44A17 17 0 0 1 61 18 17 17 0 0 1 44 35H0Z" fill="#f4f4f5" stroke="#e7e5e4"/>
+  <path d="M1 4H43A14 14 0 0 1 57 18 14 14 0 0 1 43 32H1Z" fill="#fff"/>
+  <text x="30" y="23" fill="#292524" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">EN</text>
+</svg>

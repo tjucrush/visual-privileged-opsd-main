@@ -6,7 +6,7 @@
 
 **数据准备 | 模型训练 | 效果评估**
 
-<p><a href="https://tjucrush.github.io/visual-privileged-opsd-main/">打开交互页面 | English / 简体中文</a></p>
+<p align="right"><a href="README.zh-CN.md"><img src="docs/assets/lang-zh-left.svg" alt="中文" height="36"></a><a href="README.md"><img src="docs/assets/lang-zh-right.svg" alt="EN" height="36"></a></p>
 
 <img src="docs/assets/method-overview.png" alt="方法概览图" width="860">
 
