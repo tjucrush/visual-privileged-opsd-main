@@ -6,7 +6,7 @@
 
 **数据准备 | 模型训练 | 效果评估**
 
-<p><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a></p>
+<p><a href="https://tjucrush.github.io/visual-privileged-opsd-main/">打开交互页面 | English / 简体中文</a></p>
 
 <img src="docs/assets/method-overview.png" alt="方法概览图" width="860">
 
@@ -124,4 +124,3 @@ docs/          实现说明、基准测试准备和验证说明
 ## 许可
 
 代码采用 [MIT License](LICENSE)。模型和数据集遵循各自的上游许可。
-

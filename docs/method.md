@@ -41,4 +41,3 @@ Entropy is a heuristic for confidence, not a correctness guarantee. A confidentl
 ## Default Configuration
 
 The default training configuration uses LoRA rank 16, AdamW, one epoch, and gradient accumulation of 8. Configure image resolution, sampling temperature, positional weighting, entropy weighting, and visual cues in `configs/qwen3_vl_8b.yaml`. Full-parameter fine-tuning is available with `lora: false`.
-

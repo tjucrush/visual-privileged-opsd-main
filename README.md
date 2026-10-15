@@ -6,7 +6,7 @@
 
 **Data preparation | Model training | Evaluation**
 
-<p><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a></p>
+<p><a href="https://tjucrush.github.io/visual-privileged-opsd-main/">Open the interactive site | English / 简体中文</a></p>
 
 <p><a href="#quick-start">Quick start</a> | <a href="#data-preparation">Data</a> | <a href="#training">Training</a> | <a href="#evaluation">Evaluation</a></p>
 
@@ -126,4 +126,3 @@ docs/          Method details, benchmark preparation, and validation
 ## License
 
 Code is released under the [MIT License](LICENSE). Models and datasets follow their respective upstream licenses.
-
