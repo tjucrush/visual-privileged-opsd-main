@@ -1,10 +1,18 @@
-# Visual-Privileged OPSD for GUI Grounding
+<div align="center">
 
-On-policy self-distillation for GUI grounding with visual teacher privilege and dynamically weighted token supervision. Built for **Qwen3-VL-8B-Instruct**.
+# Visual-Privileged OPSD
 
-The student generates coordinates from the original screenshot. A stop-gradient teacher branch uses the current model with a coarse red box, Gaussian soft mask, and visual guidance prompt. Training aligns both distributions on the same student-generated tokens and minimizes position- and confidence-weighted reverse KL divergence.
+### On-policy self-distillation for visual GUI grounding
 
-## Method
+**Teacher-guided coordinate learning · Dynamic token weighting · Qwen3-VL-8B-Instruct**
+
+<img src="docs/assets/privileged-distillation.gif" alt="Student and visual teacher views with a pulsing target highlight" width="860">
+
+</div>
+
+The student predicts coordinates from the original screenshot. A stop-gradient teacher sees a coarse target region and Gaussian soft mask. Both branches evaluate the same student-generated tokens, with position- and confidence-weighted reverse KL divergence guiding training.
+
+## How It Works
 
 ```mermaid
 flowchart LR
@@ -31,6 +39,17 @@ flowchart LR
 
 See [Method Details](docs/method.md) for equations and configuration parameters.
 
+## Quick Start
+
+Generate a synthetic GUI example and its privileged teacher view:
+
+```bash
+python -m vpopsd.demo
+python -m vpopsd.evaluate --data outputs/demo/examples.jsonl --predictions outputs/demo/predictions.jsonl --output-dir outputs/demo/eval
+```
+
+See [Method Details](docs/method.md) for equations and configuration parameters.
+
 ## Installation
 
 Use Python 3.12 and a CUDA GPU for training. Install compatible PyTorch and torchvision builds using the [PyTorch installation guide](https://pytorch.org/get-started/locally/).
@@ -45,19 +64,6 @@ pip install -e '.[dev,data]'
 ```
 
 On Windows, activate the environment with `.venv\Scripts\Activate.ps1`. The project uses Transformers 4.57.1. Training runs in a single process on one device.
-
-## Quick Start
-
-Generate a synthetic GUI example and its privileged teacher view:
-
-```bash
-python -m vpopsd.demo
-python -m vpopsd.evaluate --data outputs/demo/examples.jsonl --predictions outputs/demo/predictions.jsonl --output-dir outputs/demo/eval
-```
-
-| Student screenshot | Privileged teacher view |
-|---|---|
-| ![Student](docs/assets/student.png) | ![Teacher](docs/assets/teacher.png) |
 
 ## Data Preparation
 

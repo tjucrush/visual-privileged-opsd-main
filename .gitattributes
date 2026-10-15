@@ -3,3 +3,4 @@
 *.yml text eol=lf
 *.yaml text eol=lf
 *.png binary
+*.gif binary
