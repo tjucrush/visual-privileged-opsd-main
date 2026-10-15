@@ -1,1 +1,143 @@
-PGRpdiBhbGlnbj0iY2VudGVyIj4KCiMgVmlzdWFsLVByaXZpbGVnZWQgT1BTRAoKIyMjIE9uLXBvbGljeSBzZWxmLWRpc3RpbGxhdGlvbiBmb3IgdmlzdWFsIEdVSSBncm91bmRpbmcKCioqVGVhY2hlci1ndWlkZWQgY29vcmRpbmF0ZSBsZWFybmluZyDCtyBEeW5hbWljIHRva2VuIHdlaWdodGluZyDCtyBRd2VuMy1WTC04Qi1JbnN0cnVjdCoqCgo8aW1nIHNyYz0iZG9jcy9hc3NldHMvcHJpdmlsZWdlZC1kaXN0aWxsYXRpb24uZ2lmIiBhbHQ9IlN0dWRlbnQgYW5kIHZpc3VhbCB0ZWFjaGVyIHZpZXdzIHdpdGggYSBwdWxzaW5nIHRhcmdldCBoaWdobGlnaHQiIHdpZHRoPSI4NjAiPgoKPC9kaXY+CgpUaGUgc3R1ZGVudCBwcmVkaWN0cyBjb29yZGluYXRlcyBmcm9tIHRoZSBvcmlnaW5hbCBzY3JlZW5zaG90LiBBIHN0b3AtZ3JhZGllbnQgdGVhY2hlciBzZWVzIGEgY29hcnNlIHRhcmdldCByZWdpb24gYW5kIEdhdXNzaWFuIHNvZnQgbWFzay4gQm90aCBicmFuY2hlcyBldmFsdWF0ZSB0aGUgc2FtZSBzdHVkZW50LWdlbmVyYXRlZCB0b2tlbnMsIHdpdGggcG9zaXRpb24tIGFuZCBjb25maWRlbmNlLXdlaWdodGVkIHJldmVyc2UgS0wgZGl2ZXJnZW5jZSBndWlkaW5nIHRyYWluaW5nLgoKIyMgSG93IEl0IFdvcmtzCgpgYGBtZXJtYWlkCmZsb3djaGFydCBMUgogIEFbT3JpZ2luYWwgc2NyZWVuc2hvdCBhbmQgaW5zdHJ1Y3Rpb25dIC0tPiBTW1N0dWRlbnQgcm9sbG91dF0KICBCW1RhcmdldCBib3VuZGluZyBib3hdIC0tPiBDW0NvYXJzZSByZWdpb25dCiAgQyAtLT4gVltSZWQgYm94IGFuZCBHYXVzc2lhbiBzb2Z0IG1hc2tdCiAgViAtLT4gVFtTdG9wLWdyYWRpZW50IHNlbGYtdGVhY2hlcl0KICBTIC0tPiBZW1NoYXJlZCBnZW5lcmF0ZWQgdG9rZW5zIGFuZCBwcmVmaXhlc10KICBZIC0tPiBUCiAgWSAtLT4gUFtTdHVkZW50IGRpc3RyaWJ1dGlvbl0KICBUIC0tPiBRW1RlYWNoZXIgZGlzdHJpYnV0aW9uIGFuZCBlbnRyb3B5XQogIFAgLS0+IExbV2VpZ2h0ZWQgcmV2ZXJzZSBLTF0KICBRIC0tPiBMCiAgWSAtLT4gV1tDb29yZGluYXRlIGRpZ2l0IGltcG9ydGFuY2VdCiAgVyAtLT4gTAogIEwgLS0+IFVbU3R1ZGVudCB1cGRhdGVdCmBgYAoKLSAqKlZpc3VhbCBwcml2aWxlZ2U6Kiogc25hcCB0aGUgdGFyZ2V0IGJveCB0byBhbiBleHBhbmRlZCBjb2Fyc2UgZ3JpZCwgdGhlbiBhcHBseSBhIHJlZCByZWN0YW5nbGUgYW5kIEdhdXNzaWFuIHNvZnQgbWFzay4gVGVhY2hlciBwcm9tcHRzIHVzZSB2aXN1YWwgZ3VpZGFuY2Ugd2l0aG91dCBpbnNlcnRpbmcgZXhhY3QgdGFyZ2V0IGNvb3JkaW5hdGVzLgotICoqT24tcG9saWN5IHNhbXBsaW5nOioqIGdlbmVyYXRlIGZyZXNoIHN0dWRlbnQgdHJhamVjdG9yaWVzIGFuZCBldmFsdWF0ZSB0aGUgc2FtZSBjb21wbGV0aW9uIHRva2VuIElEcyB1bmRlciBib3RoIGJyYW5jaGVzLCB3aXRoIGluZGVwZW5kZW50IGNhdXNhbCBhbGlnbm1lbnQgZm9yIGVhY2ggcHJvbXB0LgotICoqUmV2ZXJzZSBLTDoqKiBjb21wdXRlIGZ1bGwtdm9jYWJ1bGFyeSBgS0wocF9zdHVkZW50IHx8IHBfdGVhY2hlcilgIHdpdGggdGVtcGVyYXR1cmUgc2NhbGluZyBhbmQgZGV0YWNoZWQgdGVhY2hlciBwcm9iYWJpbGl0aWVzLgotICoqRHluYW1pYyB3ZWlnaHRpbmc6KiogYXNzaWduIHN0cm9uZ2VyIHN1cGVydmlzaW9uIHRvIG1vcmUgc2lnbmlmaWNhbnQgY29vcmRpbmF0ZSBkaWdpdHMgYW5kIGxvd2VyLWVudHJvcHkgdGVhY2hlciBwcmVkaWN0aW9ucy4gTWVyZ2VkIGRpZ2l0IHRva2VucyBhcmUgc3VwcG9ydGVkLgotICoqVHJhaW5pbmc6KiogbGFuZ3VhZ2UtbGF5ZXIgTG9SQSBvciBmdWxsIGZpbmUtdHVuaW5nLCBncmFkaWVudCBhY2N1bXVsYXRpb24sIGdyYWRpZW50IGNoZWNrcG9pbnRpbmcsIG1vZGVsIHNhdmluZywgYW5kIHBlci1zYW1wbGUgbWV0cmljcy4KClNlZSBbTWV0aG9kIERldGFpbHNdKGRvY3MvbWV0aG9kLm1kKSBmb3IgZXF1YXRpb25zIGFuZCBjb25maWd1cmF0aW9uIHBhcmFtZXRlcnMuCgojIyBRdWljayBTdGFydAoKR2VuZXJhdGUgYSBzeW50aGV0aWMgR1VJIGV4YW1wbGUgYW5kIGl0cyBwcml2aWxlZ2VkIHRlYWNoZXIgdmlldzoKCmBgYGJhc2gKcHl0aG9uIC1tIHZwb3BzZC5kZW1vCnB5dGhvbiAtbSB2cG9wc2QuZXZhbHVhdGUgLS1kYXRhIG91dHB1dHMvZGVtby9leGFtcGxlcy5qc29ubCAtLXByZWRpY3Rpb25zIG91dHB1dHMvZGVtby9wcmVkaWN0aW9ucy5qc29ubCAtLW91dHB1dC1kaXIgb3V0cHV0cy9kZW1vL2V2YWwKYGBgCgojIyBJbnN0YWxsYXRpb24KClVzZSBQeXRob24gMy4xMiBhbmQgYSBDVURBIEdQVSBmb3IgdHJhaW5pbmcuIEluc3RhbGwgY29tcGF0aWJsZSBQeVRvcmNoIGFuZCB0b3JjaHZpc2lvbiBidWlsZHMgdXNpbmcgdGhlIFtQeVRvcmNoIGluc3RhbGxhdGlvbiBndWlkZV0oaHR0cHM6Ly9weXRvcmNoLm9yZy9nZXQtc3RhcnRlZC9sb2NhbGx5LykuCgpgYGBiYXNoCmdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vdGp1Y3J1c2gvdmlzdWFsLXByaXZpbGVnZWQtb3BzZC1tYWluLmdpdApjZCB2aXN1YWwtcHJpdmlsZWdlZC1vcHNkLW1haW4KcHl0aG9uIC1tIHZlbnYgLnZlbnYKc291cmNlIC52ZW52L2Jpbi9hY3RpdmF0ZQojIEluc3RhbGwgdG9yY2ggMi42LTIuOCBhbmQgYSBtYXRjaGluZyB0b3JjaHZpc2lvbiBidWlsZCBmb3IgeW91ciBDVURBIHZlcnNpb24uCnBpcCBpbnN0YWxsIC1lICcuW2RldixkYXRhXScKYGBgCgpPbiBXaW5kb3dzLCBhY3RpdmF0ZSB0aGUgZW52aXJvbm1lbnQgd2l0aCBgLnZlbnZcU2NyaXB0c1xBY3RpdmF0ZS5wczFgLiBUaGUgcHJvamVjdCB1c2VzIFRyYW5zZm9ybWVycyA0LjU3LjEuIFRyYWluaW5nIHJ1bnMgaW4gYSBzaW5nbGUgcHJvY2VzcyBvbiBvbmUgZGV2aWNlLgoKIyMgRGF0YSBQcmVwYXJhdGlvbgoKRWFjaCBKU09OTCByZWNvcmQgY29udGFpbnMgYW4gaW5zdHJ1Y3Rpb24sIHNjcmVlbnNob3QsIGFuZCBib3VuZGluZyBib3guIENvb3JkaW5hdGVzIHVzZSAqKm5vcm1hbGl6ZWQgeHl4eSB2YWx1ZXMgaW4gWzAsMV0qKi4gUmVsYXRpdmUgaW1hZ2UgcGF0aHMgcmVzb2x2ZSBmcm9tIHRoZSBKU09OTCBkaXJlY3RvcnkuCgpgYGBqc29uCnsiaWQiOiJzYW1wbGUtMSIsImltYWdlIjoiaW1hZ2VzLzEucG5nIiwiaW5zdHJ1Y3Rpb24iOiJDbGljayBTYXZlIiwiYmJveCI6WzAuNjUsMC42MiwwLjgyNSwwLjczXSwiYmVuY2htYXJrIjoic2NhbGVjdWEifQpgYGAKCk9idGFpbiBHVUkgZ3JvdW5kaW5nIGRhdGEgZnJvbSBbU2NhbGVDVUFdKGh0dHBzOi8vZ2l0aHViLmNvbS9PcGVuR1ZMYWIvU2NhbGVDVUEpLCB0aGVuIG1hcCBpdHMgZmllbGRzIGFuZCBjb29yZGluYXRlIGZvcm1hdCB0byB0aGUgY2Fub25pY2FsIHNjaGVtYToKCmBgYGJhc2gKcHl0aG9uIC1tIHZwb3BzZC5wcmVwYXJlIGNvbnZlcnQgLS1pbnB1dCBkYXRhL3Jhdy9ncm91bmRpbmcuanNvbmwgLS1pbWFnZS1yb290IGRhdGEvcmF3L2ltYWdlcyAtLWltYWdlLWZpZWxkIGltYWdlIC0taW5zdHJ1Y3Rpb24tZmllbGQgaW5zdHJ1Y3Rpb24gLS1iYm94LWZpZWxkIGJib3ggLS1iYm94LWZvcm1hdCB4eXh5IC0tYmJveC11bml0cyBwaXhlbHMgLS1vdXRwdXQgZGF0YS9zY2FsZWN1YS9hbGwuanNvbmwKcHl0aG9uIC1tIHZwb3BzZC5wcmVwYXJlIHNwbGl0IC0taW5wdXQgZGF0YS9zY2FsZWN1YS9hbGwuanNvbmwgLS10cmFpbi1zaXplIDcwMDAgLS12YWwtc2l6ZSAzMDAgLS1zZWVkIDQyIC0tb3V0cHV0LWRpciBkYXRhL3NjYWxlY3VhCmBgYAoKQWRqdXN0IGZpZWxkIG5hbWVzIGFuZCBib3VuZGluZy1ib3ggdW5pdHMgdG8gbWF0Y2ggdGhlIHNvdXJjZSBmaWxlcy4gTmVzdGVkIGZpZWxkcyB1c2UgZG90IG5vdGF0aW9uLiBTcGxpdHRpbmcgZ3JvdXBzIHJlY29yZHMgYnkgZGVjb2RlZCBzY3JlZW5zaG90IGNvbnRlbnQgdG8ga2VlcCB0cmFpbmluZyBhbmQgdmFsaWRhdGlvbiBpbWFnZXMgZGlzam9pbnQuIEFkZCBgLS1leGNsdWRlIHBhdGgvdG8vYmVuY2htYXJrLmpzb25sIC4uLmAgdG8gZXhjbHVkZSBldmFsdWF0aW9uIHNjcmVlbnNob3RzLiBTcGxpdCBtZXRhZGF0YSByZWNvcmRzIHRoZSBzZWVkIGFuZCBzb3VyY2UgU0hBMjU2LgoKIyMgVHJhaW5pbmcKCmBgYGJhc2gKcHl0aG9uIC1tIHZwb3BzZC50cmFpbiAtLWNvbmZpZyBjb25maWdzL3F3ZW4zX3ZsXzhiLnlhbWwKYGBgCgpUaGUgZGVmYXVsdCBjb25maWd1cmF0aW9uIHVzZXMgTG9SQSByYW5rIDE2LCBBZGFtVywgb25lIGVwb2NoLCBhbmQgZ3JhZGllbnQgYWNjdW11bGF0aW9uIG9mIDguIFNldCBgbG9yYTogZmFsc2VgIGZvciBmdWxsIGZpbmUtdHVuaW5nLiBVc2UgYSBzZXBhcmF0ZSBgb3V0cHV0X2RpcmAgZm9yIGVhY2ggcnVuLgoKT3V0cHV0cyBpbmNsdWRlIGNvbmZpZ3VyYXRpb24gYW5kIHBhY2thZ2UgdmVyc2lvbnMsIGRhdGFzZXQgbWV0YWRhdGEsIHRva2VuIHZhbGlkaXR5LCByZXZlcnNlIEtMLCB0ZWFjaGVyIGVudHJvcHksIHRva2VuIHdlaWdodHMsIHRyYWluaW5nIHRpbWUsIGFuZCBtb2RlbCB3ZWlnaHRzLiBUcmFpbmluZyB0aW1lIGNvdmVycyByb2xsb3V0cywgdGVhY2hlciBhbmQgc3R1ZGVudCBwYXNzZXMsIGJhY2twcm9wYWdhdGlvbiwgYW5kIG9wdGltaXplciB1cGRhdGVzLgoKIyMgRXZhbHVhdGlvbgoKYGBgYmFzaApweXRob24gLW0gdnBvcHNkLmV2YWx1YXRlIC0tZGF0YSBkYXRhL2JlbmNobWFya3Mvc2NyZWVuc3BvdC90ZXN0Lmpzb25sIC0tY29uZmlnIGNvbmZpZ3MvZXZhbF9iYXNlLnlhbWwgLS1vdXRwdXQtZGlyIG91dHB1dHMvZXZhbC1iYXNlCnB5dGhvbiAtbSB2cG9wc2Quc3VpdGUgLS1zdWl0ZSBjb25maWdzL2JlbmNobWFya3MueWFtbCAtLWNvbmZpZyBjb25maWdzL2V2YWxfYmFzZS55YW1sIC0tb3V0cHV0LWRpciBvdXRwdXRzL3N1aXRlLWJhc2UKYGBgCgpUbyBldmFsdWF0ZSBhIExvUkEgY2hlY2twb2ludCwgc2V0IGBhZGFwdGVyOiBvdXRwdXRzL3Zwb3BzZC1xd2VuMy12bC04Yi9tb2RlbGAgaW4gdGhlIGluZmVyZW5jZSBjb25maWd1cmF0aW9uLiBGb3IgYSBmdWxseSBmaW5lLXR1bmVkIGNoZWNrcG9pbnQsIHNldCBgbW9kZWxfbmFtZWAgdG8gdGhlIHNhdmVkIG1vZGVsIGRpcmVjdG9yeS4KClRoZSBzdWl0ZSBjb3ZlcnMgU2NyZWVuU3BvdCwgU2NyZWVuU3BvdC12MiwgU2NyZWVuU3BvdC1Qcm8sIEdyb3VuZFVJLTFLLCBPU1dvcmxkLUcgYm91bmRpbmctYm94IHRhc2tzLCBhbmQgVUktVmlzaW9uIGVsZW1lbnQgZ3JvdW5kaW5nLiBTZWUgW0JlbmNobWFyayBQcmVwYXJhdGlvbl0oZG9jcy9iZW5jaG1hcmtzLm1kKSBmb3IgYWRhcHRlcnMgYW5kIHRhc2sgZGVmaW5pdGlvbnMuCgpFdmFsdWF0aW9uIHVzZXMgb3JpZ2luYWwgc2NyZWVuc2hvdHMgYW5kIHBvaW50LWluLWJveCBhY2N1cmFjeS4gUmVwb3J0cyBpbmNsdWRlIHBlci1kYXRhc2V0IGFjY3VyYWN5LCBlcXVhbC13ZWlnaHQgbWFjcm8gYWNjdXJhY3ksIGFuZCBzYW1wbGUtd2VpZ2h0ZWQgbWljcm8gYWNjdXJhY3kuIE1pc3Npbmcgb3IgbWFsZm9ybWVkIHByZWRpY3Rpb25zIGNvdW50IGFzIGZhaWx1cmVzLiBSdW4gb3V0cHV0cyBhcmUgc2F2ZWQgaW4gYG1ldHJpY3MuanNvbmAsIGBwcmVkaWN0aW9ucy5qc29ubGAsIGFuZCBgZGV0YWlscy5qc29ubGAuCgojIyBBYmxhdGlvbnMKCnwgQWJsYXRpb24gfCBDb25maWd1cmF0aW9uIHwKfC0tLXwtLS18CnwgRGlzYWJsZSBkaWdpdCBpbXBvcnRhbmNlIHwgYHBvc2l0aW9uX3dlaWdodGluZzogZmFsc2VgIHwKfCBEaXNhYmxlIGVudHJvcHkgd2VpZ2h0aW5nIHwgYGVudHJvcHlfd2VpZ2h0aW5nOiBmYWxzZWAgfAp8IERpc2FibGUgcmVkIGJveGVzIHwgYHByaXZpbGVnZS5yZWRfYm94OiBmYWxzZWAgfAp8IERpc2FibGUgR2F1c3NpYW4gbWFza3MgfCBgcHJpdmlsZWdlLmdhdXNzaWFuX21hc2s6IGZhbHNlYCB8CnwgRGlzYWJsZSB0ZWFjaGVyIHByaXZpbGVnZSB8IFNldCByZWQgYm94ZXMsIEdhdXNzaWFuIG1hc2tzLCBhbmQgYHRlYWNoZXJfaGludGAgdG8gZmFsc2UgfAoKIyMgVGVzdHMKCmBgYGJhc2gKcHl0ZXN0IC1xCnJ1ZmYgY2hlY2sgLgpgYGAKClRoZSAyNCB0ZXN0cyBjb3ZlciByZXZlcnNlIEtMLCB0ZWFjaGVyIGdyYWRpZW50IGlzb2xhdGlvbiwgdG9rZW4gYWxpZ25tZW50LCBjb29yZGluYXRlIGNvbnZlbnRpb25zLCBpbWFnZS1kaXNqb2ludCBzcGxpdHMsIGV2YWx1YXRpb24gbWV0cmljcywgYW5kIGEgdGlueSBRd2VuMy1WTCBpbnRlZ3JhdGlvbiB3aXRoIGltYWdlIGlucHV0cywgZ2VuZXJhdGlvbiwgTG9SQSwgYW5kIGJhY2twcm9wYWdhdGlvbi4gU2VlIFtWYWxpZGF0aW9uXShkb2NzL3ZhbGlkYXRpb24ubWQpIGZvciB0aGUgdGVzdGVkIGVudmlyb25tZW50LgoKIyMgUHJvamVjdCBTdHJ1Y3R1cmUKCmBgYHRleHQKc3JjL3Zwb3BzZC8gICAgIFZpc3VhbCBwcml2aWxlZ2UsIGRpc3RpbGxhdGlvbiwgdHJhaW5pbmcsIGV2YWx1YXRpb24sIGFuZCBkYXRhIHRvb2xzCmNvbmZpZ3MvICAgICAgIFRyYWluaW5nLCBpbmZlcmVuY2UsIGFuZCBiZW5jaG1hcmsgc3VpdGUgY29uZmlndXJhdGlvbnMKdGVzdHMvICAgICAgICAgT2JqZWN0aXZlLCBhbGlnbm1lbnQsIGRhdGEsIGFuZCBtb2RlbCBpbnRlZ3JhdGlvbiB0ZXN0cwpkb2NzLyAgICAgICAgICBNZXRob2QgZGV0YWlscywgYmVuY2htYXJrIHByZXBhcmF0aW9uLCBhbmQgdmFsaWRhdGlvbgpgYGAKCiMjIFJlZmVyZW5jZXMKCi0gW1F3ZW4zLVZMLThCLUluc3RydWN0XShodHRwczovL2h1Z2dpbmdmYWNlLmNvL1F3ZW4vUXdlbjMtVkwtOEItSW5zdHJ1Y3QpCi0gW1RyYW5zZm9ybWVycyBRd2VuMy1WTCBBUEldKGh0dHBzOi8vaHVnZ2luZ2ZhY2UuY28vZG9jcy90cmFuc2Zvcm1lcnMvbW9kZWxfZG9jL3F3ZW4zX3ZsKQotIFtTY2FsZUNVQV0oaHR0cHM6Ly9naXRodWIuY29tL09wZW5HVkxhYi9TY2FsZUNVQSkKCiMjIExpY2Vuc2UKCkNvZGUgaXMgcmVsZWFzZWQgdW5kZXIgdGhlIFtNSVQgTGljZW5zZV0oTElDRU5TRSkuIE1vZGVscyBhbmQgZGF0YXNldHMgZm9sbG93IHRoZWlyIHJlc3BlY3RpdmUgdXBzdHJlYW0gbGljZW5zZXMuCg==
+<div align="center">
+
+# Visual-Privileged OPSD
+
+### On-policy self-distillation for visual GUI grounding
+
+**Teacher-guided coordinate learning · Dynamic token weighting · Qwen3-VL-8B-Instruct**
+
+<img src="docs/assets/privileged-distillation.gif" alt="Student and visual teacher views with a pulsing target highlight" width="860">
+
+</div>
+
+The student predicts coordinates from the original screenshot. A stop-gradient teacher sees a coarse target region and Gaussian soft mask. Both branches evaluate the same student-generated tokens, with position- and confidence-weighted reverse KL divergence guiding training.
+
+## How It Works
+
+```mermaid
+flowchart LR
+  A[Original screenshot and instruction] --> S[Student rollout]
+  B[Target bounding box] --> C[Coarse region]
+  C --> V[Red box and Gaussian soft mask]
+  V --> T[Stop-gradient self-teacher]
+  S --> Y[Shared generated tokens and prefixes]
+  Y --> T
+  Y --> P[Student distribution]
+  T --> Q[Teacher distribution and entropy]
+  P --> L[Weighted reverse KL]
+  Q --> L
+  Y --> W[Coordinate digit importance]
+  W --> L
+  L --> U[Student update]
+```
+
+- **Visual privilege:** snap the target box to an expanded coarse grid, then apply a red rectangle and Gaussian soft mask. Teacher prompts use visual guidance without inserting exact target coordinates.
+- **On-policy sampling:** generate fresh student trajectories and evaluate the same completion token IDs under both branches, with independent causal alignment for each prompt.
+- **Reverse KL:** compute full-vocabulary `KL(p_student || p_teacher)` with temperature scaling and detached teacher probabilities.
+- **Dynamic weighting:** assign stronger supervision to more significant coordinate digits and lower-entropy teacher predictions. Merged digit tokens are supported.
+- **Training:** language-layer LoRA or full fine-tuning, gradient accumulation, gradient checkpointing, model saving, and per-sample metrics.
+
+See [Method Details](docs/method.md) for equations and configuration parameters.
+
+## Quick Start
+
+Generate a synthetic GUI example and its privileged teacher view:
+
+```bash
+python -m vpopsd.demo
+python -m vpopsd.evaluate --data outputs/demo/examples.jsonl --predictions outputs/demo/predictions.jsonl --output-dir outputs/demo/eval
+```
+
+## Installation
+
+Use Python 3.12 and a CUDA GPU for training. Install compatible PyTorch and torchvision builds using the [PyTorch installation guide](https://pytorch.org/get-started/locally/).
+
+```bash
+git clone https://github.com/tjucrush/visual-privileged-opsd-main.git
+cd visual-privileged-opsd-main
+python -m venv .venv
+source .venv/bin/activate
+# Install torch 2.6-2.8 and a matching torchvision build for your CUDA version.
+pip install -e '.[dev,data]'
+```
+
+On Windows, activate the environment with `.venv\Scripts\Activate.ps1`. The project uses Transformers 4.57.1. Training runs in a single process on one device.
+
+## Data Preparation
+
+Each JSONL record contains an instruction, screenshot, and bounding box. Coordinates use **normalized xyxy values in [0,1]**. Relative image paths resolve from the JSONL directory.
+
+```json
+{"id":"sample-1","image":"images/1.png","instruction":"Click Save","bbox":[0.65,0.62,0.825,0.73],"benchmark":"scalecua"}
+```
+
+Obtain GUI grounding data from [ScaleCUA](https://github.com/OpenGVLab/ScaleCUA), then map its fields and coordinate format to the canonical schema:
+
+```bash
+python -m vpopsd.prepare convert --input data/raw/grounding.jsonl --image-root data/raw/images --image-field image --instruction-field instruction --bbox-field bbox --bbox-format xyxy --bbox-units pixels --output data/scalecua/all.jsonl
+python -m vpopsd.prepare split --input data/scalecua/all.jsonl --train-size 7000 --val-size 300 --seed 42 --output-dir data/scalecua
+```
+
+Adjust field names and bounding-box units to match the source files. Nested fields use dot notation. Splitting groups records by decoded screenshot content to keep training and validation images disjoint. Add `--exclude path/to/benchmark.jsonl ...` to exclude evaluation screenshots. Split metadata records the seed and source SHA256.
+
+## Training
+
+```bash
+python -m vpopsd.train --config configs/qwen3_vl_8b.yaml
+```
+
+The default configuration uses LoRA rank 16, AdamW, one epoch, and gradient accumulation of 8. Set `lora: false` for full fine-tuning. Use a separate `output_dir` for each run.
+
+Outputs include configuration and package versions, dataset metadata, token validity, reverse KL, teacher entropy, token weights, training time, and model weights. Training time covers rollouts, teacher and student passes, backpropagation, and optimizer updates.
+
+## Evaluation
+
+```bash
+python -m vpopsd.evaluate --data data/benchmarks/screenspot/test.jsonl --config configs/eval_base.yaml --output-dir outputs/eval-base
+python -m vpopsd.suite --suite configs/benchmarks.yaml --config configs/eval_base.yaml --output-dir outputs/suite-base
+```
+
+To evaluate a LoRA checkpoint, set `adapter: outputs/vpopsd-qwen3-vl-8b/model` in the inference configuration. For a fully fine-tuned checkpoint, set `model_name` to the saved model directory.
+
+The suite covers ScreenSpot, ScreenSpot-v2, ScreenSpot-Pro, GroundUI-1K, OSWorld-G bounding-box tasks, and UI-Vision element grounding. See [Benchmark Preparation](docs/benchmarks.md) for adapters and task definitions.
+
+Evaluation uses original screenshots and point-in-box accuracy. Reports include per-dataset accuracy, equal-weight macro accuracy, and sample-weighted micro accuracy. Missing or malformed predictions count as failures. Run outputs are saved in `metrics.json`, `predictions.jsonl`, and `details.jsonl`.
+
+## Ablations
+
+| Ablation | Configuration |
+|---|---|
+| Disable digit importance | `position_weighting: false` |
+| Disable entropy weighting | `entropy_weighting: false` |
+| Disable red boxes | `privilege.red_box: false` |
+| Disable Gaussian masks | `privilege.gaussian_mask: false` |
+| Disable teacher privilege | Set red boxes, Gaussian masks, and `teacher_hint` to false |
+
+## Tests
+
+```bash
+pytest -q
+ruff check .
+```
+
+The 24 tests cover reverse KL, teacher gradient isolation, token alignment, coordinate conventions, image-disjoint splits, evaluation metrics, and a tiny Qwen3-VL integration with image inputs, generation, LoRA, and backpropagation. See [Validation](docs/validation.md) for the tested environment.
+
+## Project Structure
+
+```text
+src/vpopsd/     Visual privilege, distillation, training, evaluation, and data tools
+configs/       Training, inference, and benchmark suite configurations
+tests/         Objective, alignment, data, and model integration tests
+docs/          Method details, benchmark preparation, and validation
+```
+
+## References
+
+- [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)
+- [Transformers Qwen3-VL API](https://huggingface.co/docs/transformers/model_doc/qwen3_vl)
+- [ScaleCUA](https://github.com/OpenGVLab/ScaleCUA)
+
+## License
+
+Code is released under the [MIT License](LICENSE). Models and datasets follow their respective upstream licenses.
+
