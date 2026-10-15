@@ -4,9 +4,9 @@
 
 ### On-policy self-distillation for visual GUI grounding
 
-**Teacher-guided coordinate learning · Dynamic token weighting · Qwen3-VL-8B-Instruct**
+**Teacher-guided coordinate learning �� Dynamic token weighting �� Qwen3-VL-8B-Instruct**
 
-<img src="docs/assets/privileged-distillation.gif" alt="Student and visual teacher views with a pulsing target highlight" width="860">
+<img src="docs/assets/method-overview.png" alt="Method overview diagram" width="860">
 
 </div>
 
@@ -140,4 +140,3 @@ docs/          Method details, benchmark preparation, and validation
 ## License
 
 Code is released under the [MIT License](LICENSE). Models and datasets follow their respective upstream licenses.
-
