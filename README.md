@@ -25,7 +25,7 @@ This repository contains the commands, configurations, and tests for preparing s
 
 ## Quick Start
 
-Generate a synthetic GUI example and its privileged teacher view:
+Generate a sample, then evaluate its coordinate prediction:
 
 ```bash
 python -m vpopsd.demo
@@ -109,7 +109,7 @@ The 24 tests cover reverse KL, teacher gradient isolation, token alignment, coor
 ## Project Structure
 
 ```text
-src/vpopsd/     Visual privilege, distillation, training, evaluation, and data tools
+src/vpopsd/     Training, evaluation, model objectives, and dataset utilities
 configs/       Training, inference, and benchmark suite configurations
 tests/         Objective, alignment, data, and model integration tests
 docs/          Method details, benchmark preparation, and validation
